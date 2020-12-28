@@ -4,4 +4,4 @@ virtualenv
 __pycache__
 *.pyc
 .idea
-/static
+/static.env
