@@ -25,7 +25,7 @@ SECRET_KEY = 'fqcevd@!kqmh_4#cmtjra_lcdj-8(!z5#zf(2zi+o(xn^uhqk@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['staging.peanut-dev.com','peanut-dev.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
