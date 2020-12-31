@@ -5,6 +5,10 @@ from lists.forms import ItemForm
 from lists.forms import ExistingListItemForm, ItemForm
 
 
+def my_lists(request, email):
+    return render(request, 'my_lists.html')
+
+
 def new_list(request):
     form = ItemForm(data=request.POST)
     if form.is_valid():
