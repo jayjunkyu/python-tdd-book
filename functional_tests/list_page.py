@@ -27,7 +27,7 @@ class ListPage(object):
         return self
 
     def get_share_box(self):
-        return self.test.browser.find_elements_by_css_selector(
+        return self.test.browser.find_element_by_css_selector(
             'input[name="sharee"]'
         )
 
